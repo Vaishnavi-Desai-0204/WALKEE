@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "HD-wallpaper-cactus-adorable-baby-cactus-aesthetic-nature-artsy-iphone-beautiful-plants-botanical-botany-cute-cactus-plant-girly-kawaii-summer-plants-lover-thumbnail.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
