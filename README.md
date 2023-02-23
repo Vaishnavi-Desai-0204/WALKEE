@@ -1,14 +1,9 @@
-Unfortunately, this is not the entire code for the Walkee app. I lost most of the work that I did last minute for the ACM Hackathon Spring 2022 at UNR. But here's a brief on the app and what the demo did.
+Walkee is a productivity app built for iOS using Swift in Xcode. The app calculates daily steps and rewards users with virtual trees that they can add to their virtual forest when they reach a certain step count. The steps are tracked using the HealthKit feature and can be viewed in the home view.
 
-Walkee is an ios app built using Swift in Xcode. It is a productivity app that calculated daily steps and returns a virtual reward.
-The steps are calculated using the Healthkit which can be seen in the Home View. The user is initially asked for permission to use data from the Healthkit to access the daily step count.
+Upon opening the app, users are greeted with an onboarding view that provides a brief introduction to the app and its features. To use the app, users must grant permission to access their HealthKit data.
 
-There is an Onboarding view that welcomes the user to the app and gives details about it.
+When a user earns a virtual tree, it is added to their inventory and can be dragged and dropped into different cells in their virtual forest. The virtual forest is implemented using the SceneKit feature, which allows users to view and interact with their trees in a three-dimensional environment.
 
-When a particular number of steps are counted the user is rewarded with virtual trees which they can add to their virtual forest.
-The virtual forest is implemented using the SceneKit feature. The trees are added to the user's inventory when they earn them. The trees can be dragged and dropped into the different cells in the forest.
+Users can share their virtual forest with friends through iCloud, and statistics about daily and weekly steps are displayed in the statistics view.
 
-This forest can be shared with your friends using iCloud it.
-Statistics about daily and weekly steps are also calculated and displayed in the Statistics View.
-
-Inspired by Sweatcoin and Forest apps.
+Walkee was created as a submission for the ACM Hackathon Spring 2022 at UNR, and the project won first prize in the mobile app category. The app was inspired by popular productivity and wellness apps such as Sweatcoin and Forest.
